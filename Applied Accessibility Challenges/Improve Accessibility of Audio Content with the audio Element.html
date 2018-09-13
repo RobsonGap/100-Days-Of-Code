@@ -1,0 +1,20 @@
+Acessibilidade aplicada: melhore a acessibilidade do conteúdo de áudio com o elemento de áudio
+
+O elemento de áudio do HTML5 fornece significado semântico quando ele envolve o som ou o conteúdo do fluxo de áudio na sua marcação. O conteúdo de áudio também precisa de uma alternativa em texto para ser acessível a pessoas surdas ou com deficiência auditiva. Isso pode ser feito com um texto próximo na página ou um link para uma transcrição.
+
+A tag de áudio suporta o atributo controls. Isso mostra a reprodução, a pausa e outros controles padrão do navegador e suporta a funcionalidade do teclado. Este é um atributo booleano, o que significa que não precisa de um valor, sua presença na tag ativa a configuração.
+
+Aqui está um exemplo:
+
+    <audio id = "meowClip" controla>
+      <fonte src = "audio / meow.mp3" type = "audio / mpeg" />
+      <source src = "audio / meow.ogg" tipo = "audio / ogg" />
+    </ audio>
+
+Nota
+O conteúdo multimídia geralmente tem componentes visuais e auditivos. Ele precisa de legendas sincronizadas e uma transcrição para que os usuários com deficiências visuais e / ou auditivas possam acessá-lo. Geralmente, um desenvolvedor da Web não é responsável pela criação das legendas ou transcrição, mas precisa saber para incluí-las.
+
+Hora de fazer uma pausa na Camper Cat e conhecer Zersiax (@zersiax), um defensor da acessibilidade e usuário de leitor de tela. Para ouvir um clipe do seu leitor de tela em ação, adicione um elemento de áudio após o p. Inclua o atributo controls. Em seguida, coloque uma tag de origem dentro das tags de áudio com o atributo src definido como "https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" e digite o atributo definido como "audio / mpeg".
+
+Nota
+O clipe de áudio pode soar rápido e difícil de entender, mas essa é uma velocidade normal para os usuários do leitor de tela.
